@@ -8,10 +8,10 @@ they appear in answers, not outside them.
 
 ### What I do
 
-- **Audits.** Public scanner sweep (Cloudflare AI Audit,
-  Internet.nl, Hardenize, StartupHub agent-readiness) plus
-  manual review of `/.well-known/` manifests, JSON-LD, and
-  head metadata. Async-only, no calls.
+- **Audits.** Public scanner sweep across Cloudflare AI
+  Audit, Internet.nl, Hardenize and StartupHub
+  agent-readiness, plus manual review of `/.well-known/`
+  manifests, JSON-LD and head metadata. Async-only, no calls.
 - **Advisory.** Written guidance on agent-readiness gaps,
   prioritised by impact. Async-only.
 - **Implementation.** Scoped repository write access per
