@@ -23,7 +23,7 @@ The Worker behind it is open source: [turvadev-pretender](https://github.com/bus
 
 ## Contact
 
-- Email: [git@turva.dev](mailto:git@turva.dev)
+- Email: [info@turva.dev](mailto:info@turva.dev)
 - Web: [turva.dev](https://turva.dev)
 - LinkedIn: [in/erikrekola](https://www.linkedin.com/in/erikrekola)
 
