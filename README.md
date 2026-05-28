@@ -15,7 +15,7 @@ I help product teams make their sites and APIs readable by AI agents (ChatGPT se
 [turva.dev](https://turva.dev) is built on the patterns I audit for. Public scanner results, measured 2026-05-28:
 
 - turva.dev agent-readiness scanner: 100/100 (A+)
-- isitagentready.com leaderboard: #1 of top 100 sites
+- isitagentready.com 100/100 
 - startuphub.ai leaderboard: #1 of top 100 sites
 - Sub-scores: Discoverability, Content, Access Control, Capabilities, Commerce, Quality — 100/100 each
 
