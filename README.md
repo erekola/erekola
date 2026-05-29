@@ -2,20 +2,21 @@
 
 Agent-readiness audits and advisory for product teams.
 
-**turva.dev — my own reference build — is ranked #1 in the world on the public agent-readiness leaderboard, with 100/100 across every category. Measured 2026-05-28.**
+**turva.dev, my own reference build, is ranked #1 in the world on the public startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-05-29.**
 
 | Scanner | Result |
 |---|---|
+| Cloudflare Agent-Ready / isitagentready.com | 100 / 100, Level 5 (Agent-Native) |
+| startuphub.ai leaderboard | 100 / 100 (A+), #1 of top 100 sites |
 | turva.dev agent-readiness scanner | 100 / 100 (A+) |
-| isitagentready.com | 100 / 100 |
-| startuphub.ai leaderboard | #1 of top 100 sites |
-| Sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce, Quality) | 100/100 each |
+
+startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce, Quality): 100/100 each.
 
 The Cloudflare Worker that produces these results is open source: [turvadev-pretender](https://github.com/busygoat/turvadev-pretender). You can read every line before you hire me.
 
 ## Why this matters
 
-AI agents — ChatGPT search, Perplexity, Claude, Copilot — are now a discovery channel. They read sites and APIs through `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints (MCP, x402, ACP, AP2). If those signals are wrong, missing, or contradicted by your CMS, your product is invisible inside the answer. Not de-ranked. Invisible.
+AI agents such as ChatGPT search, Perplexity, Claude, and Copilot are now a discovery channel. They read sites and APIs through `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints (MCP, x402, ACP, AP2). If those signals are wrong or contradicted by your CMS, your product becomes invisible inside the answer rather than merely de-ranked.
 
 The skill is knowing which signals each agent actually reads, in what order, and how to make them deterministic across CMS drift.
 
