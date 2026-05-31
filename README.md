@@ -2,7 +2,7 @@
 
 Agent-readiness audits and advisory for product teams.
 
-**turva.dev, my own reference build, is ranked #1 in the world on the public startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-05-30.**
+**turva.dev, my own reference build, is ranked #1 in the world on the public startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-06-01.**
 
 | Scanner | Result |
 |---|---|
