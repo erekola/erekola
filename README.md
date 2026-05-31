@@ -2,7 +2,7 @@
 
 Agent-readiness audits and advisory for product teams.
 
-**turva.dev, my own reference build, is ranked #1 in the world on the public startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-05-29.**
+**turva.dev, my own reference build, is ranked #1 in the world on the public startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-05-30.**
 
 | Scanner | Result |
 |---|---|
@@ -13,6 +13,17 @@ Agent-readiness audits and advisory for product teams.
 startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce, Quality): 100/100 each.
 
 The Cloudflare Worker that produces these results is open source: [turvadev-pretender](https://github.com/busygoat/turvadev-pretender). You can read every line before you hire me.
+
+## Web security
+
+Agent-readiness is one axis. The domain's own web security is another, and I publish turva.dev's own scan results so a buyer can see the same house is in order, not just claimed. Measured on turva.dev on 2026-05-30.
+
+| Scanner | Result |
+|---|---|
+| Hardenize | All 13 categories passed |
+| Internet.nl | 98 / 100 |
+
+The missing 2 points on Internet.nl are a deliberate tradeoff. TLS 1.2 stays enabled for broad client compatibility, and I document the choice rather than hide it.
 
 ## Why this matters
 
