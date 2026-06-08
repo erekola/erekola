@@ -16,7 +16,7 @@ The Cloudflare Worker that produces these results is open source: [turvadev-pret
 
 ## Web security
 
-Agent-readiness is one axis. The domain's own web security is another, and I publish turva.dev's own scan results so a buyer can see the same house is in order, not just claimed. Measured on turva.dev on 2026-05-30.
+Agent-readiness is one axis. The domain's own web security is another, and I publish turva.dev's own scan results so a buyer can see the same house is in order, not just claimed. Measured on turva.dev on 2026-06-08.
 
 | Scanner | Result |
 |---|---|
