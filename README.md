@@ -31,6 +31,10 @@ AI agents such as ChatGPT search, Perplexity, Claude, and Copilot are now a disc
 
 The skill is knowing which signals each agent actually reads, in what order, and how to make them deterministic across CMS drift.
 
+## Agent-readiness reference
+
+A consolidated agent-readiness reference, with a short definition of each surface agents read and a link to its full guide, is in the open-source repository: [docs/agent-readiness.md](https://github.com/busygoat/turvadev-pretender/blob/main/docs/agent-readiness.md).
+
 ## Agent-readiness guides
 
 I publish plain-language guides on the surfaces agents read and how to make a site legible to them. Published on turva.dev.
