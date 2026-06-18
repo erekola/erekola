@@ -31,6 +31,27 @@ AI agents such as ChatGPT search, Perplexity, Claude, and Copilot are now a disc
 
 The skill is knowing which signals each agent actually reads, in what order, and how to make them deterministic across CMS drift.
 
+## Agent-readiness guides
+
+I publish plain-language guides on the surfaces agents read and how to make a site legible to them. Published on turva.dev.
+
+* [Agent-readiness guides (index)](https://turva.dev/guides)
+* [What an agent-readiness audit is](https://turva.dev/guides/agent-readiness-audit)
+* [llms.txt explained](https://turva.dev/guides/llms-txt)
+* [Serving markdown to agents](https://turva.dev/guides/markdown-for-agents)
+* [Response headers that help agents](https://turva.dev/guides/response-headers-for-agents)
+* [Sitemaps, robots.txt and agent access](https://turva.dev/guides/sitemaps-and-robots-for-agents)
+* [Prerendering and why agents see empty pages](https://turva.dev/guides/prerendering-for-agents)
+* [MCP server cards explained](https://turva.dev/guides/mcp-server-card)
+* [What agents.json is](https://turva.dev/guides/agents-json)
+* [The /.well-known directory for agents](https://turva.dev/guides/well-known-for-agents)
+* [How agents authenticate](https://turva.dev/guides/agent-authentication)
+* [JSON-LD and structured data for agents](https://turva.dev/guides/json-ld-structured-data)
+* [x402 and agent payments](https://turva.dev/guides/x402-agent-payments)
+* [SEO and agent-readiness are not the same](https://turva.dev/guides/seo-vs-agent-readiness)
+* [Why agent-readiness should be measured, not asserted](https://turva.dev/guides/measurement-led-agent-readiness)
+* [Common agent-readiness gaps on marketing sites](https://turva.dev/guides/agent-readiness-gaps)
+
 ## What I do
 
 - **Audits.** Public scanner sweep across the leaderboards above, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritised gaps. Async-only.
