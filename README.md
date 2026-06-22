@@ -1,8 +1,8 @@
 # Erik Rekola
 
-Agent-readiness audits and advisory for product teams.
+Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
 
-**turva.dev, my own reference build, is ranked #1 of all publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-06-21.**
+**turva.dev, my own reference build, is ranked #1 of all publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-06-22.**
 
 | Scanner | Result |
 |---|---|
@@ -54,12 +54,20 @@ I publish plain-language guides on the surfaces agents read and how to make a si
 * [SEO and agent-readiness are not the same](https://turva.dev/guides/seo-vs-agent-readiness)
 * [Why agent-readiness should be measured, not asserted](https://turva.dev/guides/measurement-led-agent-readiness)
 * [Common agent-readiness gaps on marketing sites](https://turva.dev/guides/agent-readiness-gaps)
+* [Choosing an agent-readiness audit](https://turva.dev/guides/choosing-an-agent-readiness-audit)
+* [How to get your site cited by AI assistants](https://turva.dev/guides/get-cited-by-ai-assistants)
+* [Agent commerce discovery: A2A, AP2, and ACP](https://turva.dev/guides/agent-commerce-discovery)
+* [Agent-readiness, AEO and GEO: how they relate](https://turva.dev/guides/agent-readiness-aeo-geo)
+* [Agentic commerce readiness](https://turva.dev/guides/agentic-commerce-readiness)
+* [Letting agents act on data: the decision envelope](https://turva.dev/guides/letting-agents-act-on-data)
+* [AI agent use cases](https://turva.dev/guides/ai-agent-use-cases)
 
 ## What I do
 
 - **Audits.** Public scanner sweep across the leaderboards above, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritised gaps. Async-only.
 - **Advisory.** Per-gap remediation notes your engineers can ship. Async-only.
 - **Implementation.** Scoped repository write access per task if you want me to fix what I found. Same Worker pattern as turva.dev, adapted to your stack.
+- **Agent operations.** Beyond readiness: making the data an agent acts on and the decisions it is allowed to make reliable. Scoped per engagement. Async-only.
 
 ## How I work
 
