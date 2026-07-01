@@ -61,6 +61,8 @@ I publish plain-language guides on the surfaces agents read and how to make a si
 * [Agentic commerce readiness](https://turva.dev/guides/agentic-commerce-readiness)
 * [Letting agents act on data: the decision envelope](https://turva.dev/guides/letting-agents-act-on-data)
 * [AI agent use cases](https://turva.dev/guides/ai-agent-use-cases)
+* [Open Knowledge Format (OKF) explained](https://turva.dev/guides/open-knowledge-format)
+* [Agentic Resource Discovery and ai-catalog.json](https://turva.dev/guides/agentic-resource-discovery)
 
 ## What I do
 
