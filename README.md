@@ -32,7 +32,7 @@ The skill is knowing which signals each agent actually reads, in what order, and
 
 ## Agent-readiness reference
 
-A consolidated agent-readiness reference, with a short definition of each surface agents read and a link to its full guide, is in the open-source repository: [docs/agent-readiness.md](https://codeberg.org/erekola/turva-worker/blob/main/docs/agent-readiness.md).
+A consolidated agent-readiness reference, with a short definition of each surface agents read and a link to its full guide, is in the open-source repository: [docs/agent-readiness.md](https://codeberg.org/erekola/turva-worker/src/branch/main/docs/agent-readiness.md).
 
 ## Agent-readiness guides
 
