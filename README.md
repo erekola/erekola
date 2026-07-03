@@ -70,6 +70,7 @@ I publish plain-language guides on the surfaces agents read and how to make a si
 - **Advisory.** Per-gap remediation notes your engineers can ship. Async-only.
 - **Implementation.** Scoped repository write access per task if you want me to fix what I found. Same Worker pattern as turva.dev, adapted to your stack.
 - **Agent operations.** Beyond readiness: making the data an agent acts on and the decisions it is allowed to make reliable. Scoped per engagement. Async-only.
+- **MCP server design.** Read-only discovery tools and Streamable HTTP transport, no auth surface and no logging by default. The endpoint stays readable for agents without turning into an abuse vector. Async-only.
 
 ## How I work
 
