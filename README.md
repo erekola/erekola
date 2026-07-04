@@ -6,8 +6,8 @@ Agent-readiness audits and advisory for product teams, and the wider work of mak
 
 | Scanner | Result |
 |---|---|
-| Cloudflare Agent-Ready / isitagentready.com | 100 / 100, Level 5 (Agent-Native) |
-| startuphub.ai leaderboard | 100 / 100 (A+), #1 of publicly-scanned sites |
+| Cloudflare Agent-Ready / isitagentready.com | 100/100, Level 5 (Agent-Native) |
+| startuphub.ai leaderboard | 100/100 (A+), #1 of publicly-scanned sites |
 
 startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce, Quality): 100/100 each.
 
@@ -66,7 +66,7 @@ I publish plain-language guides on the surfaces agents read and how to make a si
 
 ## What I do
 
-- **Audits.** Public scanner sweep across the leaderboards above, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritised gaps. Async-only.
+- **Audits.** Public scanner sweep across the leaderboards above, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritized gaps. Async-only.
 - **Advisory.** Per-gap remediation notes your engineers can ship. Async-only.
 - **Implementation.** Scoped repository write access per task if you want me to fix what I found. Same Worker pattern as turva.dev, adapted to your stack.
 - **Agent operations.** Beyond readiness: making the data an agent acts on and the decisions it is allowed to make reliable. Scoped per engagement. Async-only.
