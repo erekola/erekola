@@ -64,6 +64,16 @@ I publish plain-language guides on the surfaces agents read and how to make a si
 * [Open Knowledge Format (OKF) explained](https://turva.dev/guides/open-knowledge-format)
 * [Agentic Resource Discovery and ai-catalog.json](https://turva.dev/guides/agentic-resource-discovery)
 
+## Writing
+
+Notes on AI agents, and the work of letting them read a site and act on a system safely. Anything that can be measured is checked against independent scanners rather than asserted. A selection is below, with the full index on turva.dev.
+
+* [Blog index](https://turva.dev/blog)
+* [Auditing the auditor with four AI agents](https://turva.dev/blog/auditing-the-auditor)
+* [What one agent-readiness scanner cannot tell you](https://turva.dev/blog/two-scanner-audit-method)
+* [What an agent pays to read your site](https://turva.dev/blog/cheaper-pages-for-agents)
+* [Passing the agent commerce checks without faking them](https://turva.dev/blog/honest-agent-commerce-checks)
+
 ## What I do
 
 - **Audits.** Public scanner sweep across the leaderboards above, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritized gaps. Async-only.
