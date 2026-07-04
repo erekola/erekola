@@ -2,11 +2,11 @@
 
 Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
 
-**turva.dev, my own reference build, is ranked #1 of publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On the Cloudflare Agent-Ready scanner it scores 100/100 at Level 5 (Agent-Native). Measured 2026-07-02.**
+**turva.dev, my own reference build, is ranked #1 of publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On isitagentready.com, Cloudflare's agent-readiness scanner, it scores 100/100 at Level 5 (Agent-Native). Measured 2026-07-02.**
 
 | Scanner | Result |
 |---|---|
-| Cloudflare Agent-Ready / isitagentready.com | 100/100, Level 5 (Agent-Native) |
+| isitagentready.com (Cloudflare) | 100/100, Level 5 (Agent-Native) |
 | startuphub.ai leaderboard | 100/100 (A+), #1 of publicly-scanned sites |
 
 startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce, Quality): 100/100 each.
