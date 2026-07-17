@@ -2,14 +2,14 @@
 
 Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
 
-**turva.dev, my own reference build, is ranked #1 of publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 100/100 (A+) across all six categories. On isitagentready.com, Cloudflare's agent-readiness scanner, it scores 100/100 at Level 5 (Agent-Native). Measured 2026-07-16.**
+**turva.dev, my own reference build, is ranked #1 of publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 99/100 (A+). On isitagentready.com, Cloudflare's agent-readiness scanner, it scores 100/100 at Level 5 (Agent-Native). Measured 2026-07-17.**
 
 | Scanner | Result |
 |---|---|
 | isitagentready.com (Cloudflare) | 100/100, Level 5 (Agent-Native) |
-| startuphub.ai leaderboard | 100/100 (A+), #1 of publicly-scanned sites |
+| startuphub.ai leaderboard | 99/100 (A+), #1 of publicly-scanned sites |
 
-startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce, Quality): 100/100 each.
+startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce): 100/100 each. Quality is 96/100: the rate_limit_headers check reports no RateLimit headers while the site sends RateLimit-Policy, the field the active IETF draft defines.
 
 The Cloudflare Worker that produces these results is open source: [turva-worker](https://codeberg.org/erekola/turva-worker). You can read every line before you hire me.
 
