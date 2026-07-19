@@ -2,14 +2,12 @@
 
 Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
 
-**turva.dev, my own reference build, is ranked #1 of publicly-scanned sites on the startuphub.ai agent-readiness leaderboard, scoring 99/100 (A+). On isitagentready.com, Cloudflare's agent-readiness scanner, it scores 100/100 at Level 5 (Agent-Native). Measured 2026-07-17.**
+**turva.dev, my own reference build, scores 100/100 at Level 5 (Agent-Native) on isitagentready.com, Cloudflare's agent-readiness scanner. Measured 2026-07-17.**
 
 | Scanner | Result |
 |---|---|
 | isitagentready.com (Cloudflare) | 100/100, Level 5 (Agent-Native) |
-| startuphub.ai leaderboard | 99/100 (A+), #1 of publicly-scanned sites |
 
-startuphub.ai sub-scores (Discoverability, Content, Access Control, Capabilities, Commerce): 100/100 each. Quality is 96/100: the rate_limit_headers check reports no RateLimit headers while the site sends RateLimit-Policy, the field the active IETF draft defines.
 
 The Cloudflare Worker that produces these results is open source: [turva-worker](https://codeberg.org/erekola/turva-worker). You can read every line before you hire me.
 
@@ -77,7 +75,7 @@ Notes on AI agents, and the work of letting them read a site and act on a system
 
 ## What I do
 
-- **Audits.** Public scanner sweep across the leaderboards above, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritized gaps. Async-only.
+- **Audits.** Public scanner sweep, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritized gaps. Async-only.
 - **Advisory.** Per-gap remediation notes your engineers can ship. Async-only.
 - **Implementation.** Scoped repository write access per task if you want me to fix what I found. Same Worker pattern as turva.dev, adapted to your stack.
 - **Agent operations.** Beyond readiness: making the data an agent acts on and the decisions it is allowed to make reliable. Scoped per engagement. Async-only.
