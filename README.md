@@ -2,7 +2,7 @@
 
 Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
 
-**turva.dev, my own reference build, scores 100/100 at Level 5 (Agent-Native) on isitagentready.com, Cloudflare's agent-readiness scanner. Measured 2026-07-17.**
+**turva.dev, my own reference build, scores 100/100 at Level 5 (Agent-Native) on isitagentready.com, Cloudflare's agent-readiness scanner. Measured 2026-07-20.**
 
 | Scanner | Result |
 |---|---|
@@ -13,7 +13,7 @@ The Cloudflare Worker that produces these results is open source: [turva-worker]
 
 ## Web security
 
-Agent-readiness is one axis. The domain's own web security is another, and I publish turva.dev's own scan results so a buyer can see the same house is in order, not just claimed. Measured on turva.dev on 2026-07-16.
+Agent-readiness is one axis. The domain's own web security is another, and I publish turva.dev's own scan results so a buyer can see the same house is in order, not just claimed. Measured on turva.dev on 2026-07-20.
 
 | Scanner | Result |
 |---|---|
