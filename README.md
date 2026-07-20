@@ -67,6 +67,9 @@ I publish plain-language guides on the surfaces agents read and how to make a si
 Notes on AI agents, and the work of letting them read a site and act on a system safely. Anything that can be measured is checked against independent scanners rather than asserted. A selection is below, with the full index on turva.dev.
 
 * [Blog index](https://turva.dev/blog)
+* [Finishing the optional commerce checks](https://turva.dev/blog/finishing-the-optional-commerce-checks)
+* [The twin is the page](https://turva.dev/blog/the-twin-is-the-page)
+* [Every response promised a rate limit. Nothing enforced it.](https://turva.dev/blog/enforcing-the-rate-limit-i-advertised)
 * [Microsoft said the patches would get bigger. I measured how much bigger.](https://turva.dev/blog/measuring-the-ai-patch-surge)
 * [Auditing the auditor with four AI agents](https://turva.dev/blog/auditing-the-auditor)
 * [What one agent-readiness scanner cannot tell you](https://turva.dev/blog/two-scanner-audit-method)
