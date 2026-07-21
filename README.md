@@ -9,7 +9,7 @@ Agent-readiness audits and advisory for product teams, and the wider work of mak
 | isitagentready.com (Cloudflare) | 100/100, Level 5 (Agent-Native) |
 
 
-The Cloudflare Worker that produces these results is open source: [turva-worker](https://codeberg.org/erekola/turva-worker). You can read every line before you hire me.
+The Cloudflare Worker that produces these results is open source: [turva-worker](https://github.com/erekola/turva-worker). You can read every line before you hire me.
 
 ## Web security
 
@@ -30,7 +30,7 @@ The skill is knowing which signals each agent actually reads, in what order, and
 
 ## Agent-readiness reference
 
-A consolidated agent-readiness reference, with a short definition of each surface agents read and a link to its full guide, is in the open-source repository: [docs/agent-readiness.md](https://codeberg.org/erekola/turva-worker/src/branch/main/docs/agent-readiness.md).
+A consolidated agent-readiness reference, with a short definition of each surface agents read and a link to its full guide, is in the open-source repository: [docs/agent-readiness.md](https://github.com/erekola/turva-worker/blob/main/docs/agent-readiness.md).
 
 ## Agent-readiness guides
 
