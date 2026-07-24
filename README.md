@@ -24,7 +24,7 @@ On Internet.nl, IPv6, DNSSEC and RPKI pass in full. The single deduction is one 
 
 ## Why this matters
 
-AI agents such as ChatGPT search, Perplexity, Claude, and Copilot are now a discovery channel. They read sites and APIs through `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints (MCP, x402, ACP, AP2). If those signals are wrong or contradicted by your CMS, your product becomes invisible inside the answer rather than merely de-ranked.
+AI agents such as ChatGPT search, Perplexity, Claude and Copilot are now a discovery channel. They read sites and APIs through `/.well-known/` manifests, JSON-LD, head metadata and protocol endpoints (MCP, x402, ACP, AP2). If those signals are wrong or contradicted by your CMS, your product becomes invisible inside the answer rather than merely de-ranked.
 
 The skill is knowing which signals each agent actually reads, in what order, and how to make them deterministic across CMS drift.
 
@@ -78,7 +78,7 @@ Notes on AI agents, and the work of letting them read a site and act on a system
 
 ## What I do
 
-- **Audits.** Public scanner sweep, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata, and protocol endpoints. Written report with prioritized gaps. Async-only.
+- **Audits.** Public scanner sweep, plus manual review of `/.well-known/` manifests, JSON-LD, head metadata and protocol endpoints. Written report with prioritized gaps. Async-only.
 - **Advisory.** Per-gap remediation notes your engineers can ship. Async-only.
 - **Implementation.** Scoped repository write access per task if you want me to fix what I found. Same Worker pattern as turva.dev, adapted to your stack.
 - **Agent operations.** Beyond readiness: making the data an agent acts on and the decisions it is allowed to make reliable. Scoped per engagement. Async-only.
@@ -86,7 +86,7 @@ Notes on AI agents, and the work of letting them read a site and act on a system
 
 ## How I work
 
-- Async-only. No calls, no calendar links, no discovery meetings.
+- Async-only. No calls, no calendar links.
 - Reply within one business day.
 - Fixed scope per engagement, written before any payment.
 - Open-source reference implementation means you verify the work against the same scanners I do.
