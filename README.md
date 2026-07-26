@@ -34,6 +34,8 @@ Audits, advisory, implementation, agent operations and MCP server design. Fixed 
 * Async-only. No calls, no calendar links.
 * Open source reference implementation, so you verify the work against the same scanner I do.
 
-Full guide and post indexes, and fixed prices, are at [turva.dev](https://turva.dev).
+---
 
-Tell me your domain and what you want audited. info@turva.dev, reply within one business day.
+Guide and post indexes are at [turva.dev](https://turva.dev), along with the fixed prices.
+
+Tell me your domain and what you want audited: info@turva.dev, reply within one business day.
