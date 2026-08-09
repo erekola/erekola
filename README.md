@@ -27,7 +27,7 @@ The skill is knowing which signals each agent actually reads, in what order, and
 
 ## What I do
 
-Audits, advisory, implementation, agent operations and MCP server design. Fixed scope per engagement, written before any payment.
+Shopify agent storefront check, audits, advisory, implementation, agent operations and MCP server design. Fixed scope per engagement, written before any payment.
 
 ## How I work
 
