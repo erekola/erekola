@@ -21,9 +21,9 @@ The skill is knowing which signals each agent actually reads, in what order, and
 
 ## Writing
 
-* [Every response promised a rate limit. Nothing enforced it.](https://turva.dev/blog/enforcing-the-rate-limit-i-advertised)
-* [Microsoft said the patches would get bigger. I measured how much bigger.](https://turva.dev/blog/measuring-the-ai-patch-surge)
-* [What an agent pays to read your site](https://turva.dev/blog/cheaper-pages-for-agents)
+* [It would be cheating to keep the old price](https://turva.dev/blog/cheating-to-keep-the-old-price)
+* [I thought it was a small job](https://turva.dev/blog/i-thought-it-was-a-small-job)
+* [My gate could not see a sixth](https://turva.dev/blog/my-gate-could-not-see-a-sixth)
 
 ## What I do
 
