@@ -2,7 +2,7 @@
 
 Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
 
-turva.dev is my own reference build. It scores 100/100, Level 5 (Agent-Native), on isitagentready.com, Cloudflare's agent-readiness scanner, measured 2026-09-01. Its own web security is published on the same principle: Hardenize passes all 24 categories and Internet.nl reads 98/100, the one deduction being a single HTTPS sub-test I document rather than hide.
+turva.dev is my own reference build. It scores 100/100, Level 5 (Agent-Native), on isitagentready.com, Cloudflare's agent-readiness scanner, measured 2026-09-01. Its own web security is published on the same principle: [Hardenize](https://www.hardenize.com/report/turva.dev) passes all 24 categories and [Internet.nl](https://internet.nl/site/turva.dev/) reads 98/100, the one deduction being a single HTTPS sub-test I document rather than hide.
 
 The Cloudflare Worker behind those results is open source: [turva-worker](https://github.com/erekola/turva-worker). You can read every line before you hire me, starting with the [agent-readiness reference](https://github.com/erekola/turva-worker/blob/main/docs/agent-readiness.md) that defines every surface below.
 
