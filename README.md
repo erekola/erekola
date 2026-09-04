@@ -15,15 +15,15 @@ The skill is knowing which signals each agent actually reads, in what order, and
 ## Guides
 
 * [What an agent-readiness audit is](https://turva.dev/guides/agent-readiness-audit)
-* [Why agent-readiness should be measured, not asserted](https://turva.dev/guides/measurement-led-agent-readiness)
+* [Choosing an agent-readiness audit](https://turva.dev/guides/choosing-an-agent-readiness-audit)
 * [llms.txt explained](https://turva.dev/guides/llms-txt)
 * [The /.well-known directory for agents](https://turva.dev/guides/well-known-for-agents)
 
 ## Writing
 
-* [It would be cheating to keep the old price](https://turva.dev/blog/cheating-to-keep-the-old-price)
-* [I thought it was a small job](https://turva.dev/blog/i-thought-it-was-a-small-job)
-* [My gate could not see a sixth](https://turva.dev/blog/my-gate-could-not-see-a-sixth)
+* [Thirty days after the brief: 210 sites rescanned, four moved](https://turva.dev/blog/thirty-days-after-the-brief)
+* [What four AI assistants call an agent readiness audit](https://turva.dev/blog/what-ai-assistants-call-an-agent-readiness-audit)
+* [Website agent readiness, measured on 567 company sites](https://turva.dev/blog/website-agent-readiness-567-sites)
 
 ## What I do
 
