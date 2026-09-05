@@ -28,7 +28,7 @@ The site's published web-security checks recorded passes in all 24 categories on
 
 ## What I do
 
-Shopify agent storefront checks and agent-readiness audits, with documented findings and prioritized fixes. I also offer implementation, advisory, agent operations and MCP server design.
+Shopify agent storefront check, audit, advisory, implementation, agent operations and MCP server design. The two diagnoses come with documented findings and prioritized fixes, and the rest is scoped per engagement.
 
 The work covers content agents can retrieve and parse, interfaces they can call, and the data and decision boundaries they rely on when acting. AI-search visibility is measured separately from whether an agent can use a site's tools or purchase flows.
 
