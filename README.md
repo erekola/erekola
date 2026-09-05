@@ -1,41 +1,63 @@
 # Erik Rekola
 
-Agent-readiness audits and advisory for product teams, and the wider work of making the data agents act on and the decisions they make reliable.
+I build and audit websites and APIs that AI agents can find and use.
 
-turva.dev is my own reference build. It scores 100/100, Level 5 (Agent-Native), on isitagentready.com, Cloudflare's agent-readiness scanner, measured 2026-09-01. Its own web security is published on the same principle: [Hardenize](https://www.hardenize.com/report/turva.dev) passes all 24 categories and [Internet.nl](https://internet.nl/site/turva.dev/) reads 98/100, the one deduction being a single HTTPS sub-test I document rather than hide.
+At [turva.dev](https://turva.dev), I help Shopify stores and product teams find what blocks agents and decide what to fix first.
 
-The Cloudflare Worker behind those results is open source: [turva-worker](https://github.com/erekola/turva-worker). You can read every line before you hire me, starting with the [agent-readiness reference](https://github.com/erekola/turva-worker/blob/main/docs/agent-readiness.md) that defines every surface below.
+## Start here
 
-## Why this matters
+Three repos, one site.
 
-AI agents such as ChatGPT search, Perplexity, Claude and Copilot are now a discovery channel. They read sites and APIs through `/.well-known/` manifests, JSON-LD, head metadata and protocol endpoints (MCP, x402, ACP, AP2). If those signals are wrong or contradicted by your CMS, your product becomes invisible inside the answer rather than merely de-ranked.
+| Project | What it does | Explore |
+| --- | --- | --- |
+| [turva-worker](https://github.com/erekola/turva-worker) | The Cloudflare Worker behind turva.dev: HTML for people, Markdown for agents, and the site's discovery metadata and protocol endpoints. | [Live reference](https://turva.dev) · [Technical reference](https://github.com/erekola/turva-worker/blob/main/docs/agent-readiness.md) |
+| [llms-txt-validator](https://github.com/erekola/llms-txt-validator) | Check llms.txt structure from the command line, Node or CI, with readable results and JSON output. | [Try the hosted validator](https://turva.dev/llms-txt-validator) |
+| [turva-mcp](https://github.com/erekola/turva-mcp) | A public, read-only MCP server exposing turva.dev's services and published evidence. No API key required. | [Client configuration](https://github.com/erekola/turva-mcp#connect) |
 
-The skill is knowing which signals each agent actually reads, in what order, and how to make them deterministic across CMS drift.
+Try the validator on a domain: `npx turva-llms-txt-validator example.com`.
 
-## Guides
+MCP endpoint: `https://mcp.turva.dev/mcp`.
 
-* [What an agent-readiness audit is](https://turva.dev/guides/agent-readiness-audit)
-* [Choosing an agent-readiness audit](https://turva.dev/guides/choosing-an-agent-readiness-audit)
-* [llms.txt explained](https://turva.dev/guides/llms-txt)
-* [The /.well-known directory for agents](https://turva.dev/guides/well-known-for-agents)
+## Reference build
 
-## Writing
+turva.dev is my own reference implementation. It recorded **100/100, Level 5 (Agent-Native)** on [isitagentready.com](https://isitagentready.com/), Cloudflare's agent-readiness scanner, on **2026-09-01**.
 
-* [Thirty days after the brief: 210 sites rescanned, four moved](https://turva.dev/blog/thirty-days-after-the-brief)
-* [What four AI assistants call an agent readiness audit](https://turva.dev/blog/what-ai-assistants-call-an-agent-readiness-audit)
-* [Website agent readiness, measured on 567 company sites](https://turva.dev/blog/website-agent-readiness-567-sites)
+The [source code and verification instructions](https://github.com/erekola/turva-worker) are public. You can inspect the implementation and repeat the checks before deciding whether to work with me.
+
+The site's published web-security checks recorded passes in all 24 categories on [Hardenize](https://www.hardenize.com/report/turva.dev) and 98/100 on [Internet.nl](https://internet.nl/site/turva.dev/). Measurement dates and the documented exceptions are in the [reference repository](https://github.com/erekola/turva-worker#web-security).
 
 ## What I do
 
-Shopify agent storefront check, audits, advisory, implementation, agent operations and MCP server design. Fixed scope per engagement, written before any payment.
+Shopify agent storefront checks and agent-readiness audits, with documented findings and prioritized fixes. I also offer implementation, advisory, agent operations and MCP server design.
+
+The work covers content agents can retrieve and parse, interfaces they can call, and the data and decision boundaries they rely on when acting. AI-search visibility is measured separately from whether an agent can use a site's tools or purchase flows.
+
+[Service scopes and prices](https://turva.dev/services)
 
 ## How I work
 
-* Async-only. No calls, no calendar links.
-* Open source reference implementation, so you verify the work against the same scanner I do.
+- Async-only: everything in writing.
+- A fixed scope agreed before payment.
+- Findings and verification steps your team can use directly.
+- Replies within one business day.
 
----
+## Guides
 
-Guide and post indexes are at [turva.dev](https://turva.dev), along with the fixed prices.
+- [What an agent-readiness audit is](https://turva.dev/guides/agent-readiness-audit)
+- [Choosing an agent-readiness audit](https://turva.dev/guides/choosing-an-agent-readiness-audit)
+- [llms.txt explained](https://turva.dev/guides/llms-txt)
+- [The /.well-known directory for agents](https://turva.dev/guides/well-known-for-agents)
 
-Tell me your domain and what you want audited: info@turva.dev, reply within one business day.
+## Writing
+
+- [Thirty days after the brief: 210 sites rescanned, four moved](https://turva.dev/blog/thirty-days-after-the-brief)
+- [What four AI assistants call an agent readiness audit](https://turva.dev/blog/what-ai-assistants-call-an-agent-readiness-audit)
+- [Website agent readiness, measured on 567 company sites](https://turva.dev/blog/website-agent-readiness-567-sites)
+
+## Contact
+
+Based in Tampere, Finland.
+
+Email [info@turva.dev](mailto:info@turva.dev) with your domain and what you want agents to be able to do.
+
+[Website](https://turva.dev) · [LinkedIn](https://www.linkedin.com/in/erikrekola) · [All guides](https://turva.dev/guides) · [All writing](https://turva.dev/blog)
