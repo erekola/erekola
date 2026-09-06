@@ -20,7 +20,7 @@ MCP endpoint: `https://mcp.turva.dev/mcp`.
 
 ## Reference build
 
-turva.dev is my own reference implementation. It recorded **100/100, Level 5 (Agent-Native)** on [isitagentready.com](https://isitagentready.com/), Cloudflare's agent-readiness scanner, on **2026-09-01**.
+turva.dev is my own reference implementation. It recorded **100/100, Level 5 (Agent-Native)** on [isitagentready.com](https://isitagentready.com/), Cloudflare's agent-readiness scanner, on **2026-09-06**.
 
 The [source code and verification instructions](https://github.com/erekola/turva-worker) are public. You can inspect the implementation and repeat the checks before deciding whether to work with me.
 
