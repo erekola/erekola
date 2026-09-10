@@ -8,15 +8,19 @@ I also build the tools below. The code is open source so you can try it on your 
 
 | Project | What it does | Try it |
 | --- | --- | --- |
-| [llms-txt-validator](https://github.com/erekola/llms-txt-validator) | Checks llms.txt structure from the command line or Node, with JSON output for CI. | [Hosted validator](https://turva.dev/llms-txt-validator) |
+| [markdown-parity-check](https://github.com/erekola/markdown-parity-check) | Compares the main content of HTML and Markdown pages, with source locations for differences and JSON output for CI. | [npm package](https://www.npmjs.com/package/markdown-parity-check) |
+| [llms-txt-validator](https://github.com/erekola/llms-txt-validator) | Checks llms.txt structure from the command line or Node, with JSON output for CI. | [npm package](https://www.npmjs.com/package/turva-llms-txt-validator) · [Hosted validator](https://turva.dev/llms-txt-validator) |
 | [turva-worker](https://github.com/erekola/turva-worker) | Runs my website, serving HTML and Markdown from shared content sources. It also publishes the site's discovery metadata. | [Live site](https://turva.dev) |
 | [turva-mcp](https://github.com/erekola/turva-mcp) | Gives MCP clients read-only access to turva.dev's published information and evidence. | [Connect your client](https://github.com/erekola/turva-mcp#connect) |
 
-To try the validator, replace the domain with one you want to check:
+The two command-line tools are available on npm. With Node.js 22 or 24 installed, replace the example addresses with your own domain and page:
 
 ```sh
-npx turva-llms-txt-validator example.com
+npx --yes turva-llms-txt-validator example.com
+npx --yes markdown-parity-check --url https://example.com/page
 ```
+
+The first command checks llms.txt structure. The second compares a page's HTML and Markdown responses. For a separate Markdown address, add `--markdown-url https://example.com/page.md` to the second command.
 
 ## My website is part of the work
 
