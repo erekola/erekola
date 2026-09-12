@@ -33,6 +33,7 @@ I write about what I build and what happens when agents try to use websites.
 - [llms.txt explained](https://turva.dev/guides/llms-txt).
 - [The /.well-known directory for agent discovery](https://turva.dev/guides/well-known-for-agents).
 - [What a website and API agent-readiness audit covers](https://turva.dev/guides/agent-readiness-audit).
+- [HTML and Markdown can disagree](https://turva.dev/blog/html-and-markdown-can-disagree).
 - [The twin is the page](https://turva.dev/blog/the-twin-is-the-page).
 - [Thirty-day follow-up: 201 comparable readings from 210 sites](https://turva.dev/blog/thirty-days-after-the-brief).
 - [What four AI assistants call an agent readiness audit](https://turva.dev/blog/what-ai-assistants-call-an-agent-readiness-audit).
