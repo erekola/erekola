@@ -4,6 +4,10 @@ I help people make their websites and APIs work with AI agents. I run [turva.dev
 
 I also build the tools below. The code is open source so you can try it on your own site or see how mine works.
 
+## What I do
+
+Shopify agent storefront check, audit, advisory, implementation, agent operations and MCP server design.
+
 ## Start here
 
 | Project | What it does | Try it |
@@ -26,6 +30,8 @@ The first command checks llms.txt structure. The second compares a page's HTML a
 
 I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). You can inspect the implementation and repeat the checks.
 
+In the scan dated 2026-09-06, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). The security scans from the same day passed all 24 categories on [Hardenize](https://www.hardenize.com/report/turva.dev) and gave 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/).
+
 ## Guides and writing
 
 I write about what I build and what happens when agents try to use websites.
@@ -41,7 +47,7 @@ I write about what I build and what happens when agents try to use websites.
 
 [All guides](https://turva.dev/guides) · [All writing](https://turva.dev/blog)
 
-## Working with me
+## How I work
 
 I'm based in Tampere, Finland. I work in writing and explain the findings so the people maintaining a site can follow the reasoning and test the changes themselves.
 
