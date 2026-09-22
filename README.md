@@ -30,15 +30,16 @@ The first command checks llms.txt structure. The second compares a page's HTML a
 
 I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). You can inspect the implementation and repeat the checks.
 
-In the scan dated 2026-09-14, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). The security scans from the same day passed all 24 categories on [Hardenize](https://www.hardenize.com/report/turva.dev) and gave 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/).
+In the scan dated 2026-09-14, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). The security scans from the same day passed all 24 categories on [Hardenize](https://www.hardenize.com/report/turva.dev), gave 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/).
 
 ## Guides and writing
 
-I write about what I build and what happens when agents try to use websites.
+I write about what I build and what happens when agents try to use websites. A few to start with:
 
 - [llms.txt explained](https://turva.dev/guides/llms-txt).
 - [The /.well-known directory for agent discovery](https://turva.dev/guides/well-known-for-agents).
 - [What a website and API agent-readiness audit covers](https://turva.dev/guides/agent-readiness-audit).
+- [Five rounds before the agent signed anything](https://turva.dev/blog/five-rounds-before-the-agent-signed).
 - [HTML and Markdown can disagree](https://turva.dev/blog/html-and-markdown-can-disagree).
 - [The twin is the page](https://turva.dev/blog/the-twin-is-the-page).
 - [Thirty-day follow-up: 201 comparable readings from 210 sites](https://turva.dev/blog/thirty-days-after-the-brief).
@@ -53,4 +54,4 @@ I'm based in Tampere, Finland. I work in writing and explain the findings so the
 
 Send me your website and tell me what you're trying to do. That's enough to start: [info@turva.dev](mailto:info@turva.dev).
 
-[Website](https://turva.dev) · [LinkedIn](https://www.linkedin.com/in/erikrekola)
+[Website](https://turva.dev) · [LinkedIn](https://www.linkedin.com/in/erikrekola/)
