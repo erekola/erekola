@@ -30,7 +30,7 @@ The first command checks llms.txt structure. The second compares a page's HTML a
 
 I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). You can inspect the implementation and repeat the checks.
 
-In the scan dated 2026-09-14, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). The security scans from the same day passed all 24 categories on [Hardenize](https://www.hardenize.com/report/turva.dev), gave 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/).
+In the scan dated 2026-09-23, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). The security scans from the same day passed all 24 categories on [Hardenize](https://www.hardenize.com/report/turva.dev), gave 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/).
 
 ## Guides and writing
 
