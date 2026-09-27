@@ -39,6 +39,8 @@ I write about what I build and what happens when agents try to use websites. A f
 - [llms.txt explained](https://turva.dev/guides/llms-txt).
 - [The /.well-known directory for agent discovery](https://turva.dev/guides/well-known-for-agents).
 - [What a website and API agent-readiness audit covers](https://turva.dev/guides/agent-readiness-audit).
+- [My own site is my proof of work](https://turva.dev/blog/my-own-site-is-my-proof-of-work).
+- [What agent memory in local files gets me](https://turva.dev/blog/local-agent-memory).
 - [Five rounds before the agent signed anything](https://turva.dev/blog/five-rounds-before-the-agent-signed).
 - [HTML and Markdown can disagree](https://turva.dev/blog/html-and-markdown-can-disagree).
 - [The twin is the page](https://turva.dev/blog/the-twin-is-the-page).
