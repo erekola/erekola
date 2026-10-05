@@ -30,7 +30,7 @@ The first command checks llms.txt structure. The second compares a page's HTML a
 
 I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). You can inspect the implementation and repeat the checks.
 
-In the scan dated 2026-09-23, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). The Internet.nl scans of 2026-09-23 gave 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/). Hardenize, measured on 2026-10-02, passed all 24 categories on its [public report](https://www.hardenize.com/report/turva.dev).
+In the scans dated 2026-10-05, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). It scored 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/). Hardenize passed all 24 categories on its [public report](https://www.hardenize.com/report/turva.dev) the same day.
 
 ## Guides and writing
 
@@ -39,6 +39,8 @@ I write about what I build and what happens when agents try to use websites. A f
 - [llms.txt explained](https://turva.dev/guides/llms-txt).
 - [The /.well-known directory for agent discovery](https://turva.dev/guides/well-known-for-agents).
 - [What a website and API agent-readiness audit covers](https://turva.dev/guides/agent-readiness-audit).
+- [A clean Windows install for agent work](https://turva.dev/blog/clean-windows-install-for-agent-work).
+- [Why I publish every guide for free](https://turva.dev/blog/why-i-publish-every-guide).
 - [My own site is my proof of work](https://turva.dev/blog/my-own-site-is-my-proof-of-work).
 - [What agent memory in local files gets me](https://turva.dev/blog/local-agent-memory).
 - [Five rounds before the agent signed anything](https://turva.dev/blog/five-rounds-before-the-agent-signed).
