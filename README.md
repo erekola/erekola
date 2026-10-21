@@ -2,7 +2,7 @@
 
 I help people make their websites and APIs work with AI agents. I run [turva.dev](https://turva.dev), where I test what an agent can access and work out what needs changing when it gets stuck.
 
-I also build the tools below. The code is open source so you can try it on your own site or see how mine works.
+Alongside the audits I build the tools below. Their code is open source, so you can try them on your own site or see how my site works.
 
 ## What I do
 
@@ -28,17 +28,19 @@ The first command checks llms.txt structure. The second compares a page's HTML a
 
 ## My website is part of the work
 
-I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). You can inspect the implementation and repeat the checks.
+I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). Anyone can repeat the public checks.
 
-In the scans dated 2026-10-05, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). It scored 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/). Hardenize passed all 24 categories on its [public report](https://www.hardenize.com/report/turva.dev) the same day.
+In the scans dated 2026-10-21, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). It scored 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/). Hardenize passed all 24 categories on its [public report](https://www.hardenize.com/report/turva.dev) the same day.
 
 ## Guides and writing
 
-I write about what I build and what happens when agents try to use websites. A few to start with:
+I write about what I build and what happens when agents try to use websites. Some places to start:
 
 - [llms.txt explained](https://turva.dev/guides/llms-txt).
 - [The /.well-known directory for agent discovery](https://turva.dev/guides/well-known-for-agents).
 - [What a website and API agent-readiness audit covers](https://turva.dev/guides/agent-readiness-audit).
+- [What Shopify changed for agent shopping since August](https://turva.dev/blog/what-shopify-changed-for-agent-shopping).
+- [Three outside reviews of my TLA+ models](https://turva.dev/blog/three-outside-reviews-of-my-tla-plus-models).
 - [A clean Windows install for agent work](https://turva.dev/blog/clean-windows-install-for-agent-work).
 - [Why I publish every guide for free](https://turva.dev/blog/why-i-publish-every-guide).
 - [My own site is my proof of work](https://turva.dev/blog/my-own-site-is-my-proof-of-work).
