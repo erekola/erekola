@@ -45,7 +45,6 @@ I write about what I build and what happens when agents try to use websites. Som
 - [Why I publish every guide for free](https://turva.dev/blog/why-i-publish-every-guide).
 - [My own site is my proof of work](https://turva.dev/blog/my-own-site-is-my-proof-of-work).
 - [What agent memory in local files gets me](https://turva.dev/blog/local-agent-memory).
-- [Five rounds before the agent signed anything](https://turva.dev/blog/five-rounds-before-the-agent-signed).
 - [HTML and Markdown can disagree](https://turva.dev/blog/html-and-markdown-can-disagree).
 - [The twin is the page](https://turva.dev/blog/the-twin-is-the-page).
 - [Thirty-day follow-up: 201 comparable readings from 210 sites](https://turva.dev/blog/thirty-days-after-the-brief).
