@@ -6,7 +6,7 @@ Alongside the audits I build the tools below. Their code is open source, so you 
 
 ## What I do
 
-External domain check, Shopify agent storefront check, audit, advisory, implementation, agent operations and MCP server design.
+External domain check, audit, advisory, implementation, agent operations and MCP server design.
 
 ## Start here
 
