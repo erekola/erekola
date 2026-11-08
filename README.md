@@ -6,7 +6,7 @@ Alongside the audits I build the tools below. Their code is open source, so you 
 
 ## What I do
 
-Audit, advisory, implementation, agent operations and MCP server design.
+Audit, advisory, implementation, agent operations and MCP server design. Active security testing is an add-on to the audit, priced by quote.
 
 ## Start here
 
