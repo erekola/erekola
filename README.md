@@ -39,16 +39,9 @@ I write about what I build and what happens when agents try to use websites. Som
 - [llms.txt explained](https://turva.dev/guides/llms-txt).
 - [The /.well-known directory for agent discovery](https://turva.dev/guides/well-known-for-agents).
 - [What a website and API agent-readiness audit covers](https://turva.dev/guides/agent-readiness-audit).
-- [What Shopify changed for agent shopping since August](https://turva.dev/blog/what-shopify-changed-for-agent-shopping).
-- [Three outside reviews of my TLA+ models](https://turva.dev/blog/three-outside-reviews-of-my-tla-plus-models).
-- [A clean Windows install for agent work](https://turva.dev/blog/clean-windows-install-for-agent-work).
-- [Why I publish every guide for free](https://turva.dev/blog/why-i-publish-every-guide).
 - [My own site is my proof of work](https://turva.dev/blog/my-own-site-is-my-proof-of-work).
-- [What agent memory in local files gets me](https://turva.dev/blog/local-agent-memory).
 - [HTML and Markdown can disagree](https://turva.dev/blog/html-and-markdown-can-disagree).
-- [The twin is the page](https://turva.dev/blog/the-twin-is-the-page).
 - [Thirty-day follow-up: 201 comparable readings from 210 sites](https://turva.dev/blog/thirty-days-after-the-brief).
-- [What four AI assistants call an agent readiness audit](https://turva.dev/blog/what-ai-assistants-call-an-agent-readiness-audit).
 - [Website agent readiness, measured on 567 company sites](https://turva.dev/blog/website-agent-readiness-567-sites).
 
 [All guides](https://turva.dev/guides) · [All writing](https://turva.dev/blog)
