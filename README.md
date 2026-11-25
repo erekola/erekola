@@ -12,10 +12,10 @@ Audit, advisory, implementation, MCP server security test, agent operations and 
 
 | Project | What it does | Try it |
 | --- | --- | --- |
-| [markdown-parity-check](https://github.com/erekola/markdown-parity-check) | Compares the main content of HTML and Markdown pages, with source locations for differences and JSON output for CI. | [npm package](https://www.npmjs.com/package/markdown-parity-check) · [Hosted check, turva.dev pages only](https://turva.dev/markdown-parity-check) |
-| [llms-txt-validator](https://github.com/erekola/llms-txt-validator) | Checks llms.txt structure from the command line or Node, with JSON output for CI. | [npm package](https://www.npmjs.com/package/turva-llms-txt-validator) · [Hosted validator](https://turva.dev/llms-txt-validator) |
-| [turva-worker](https://github.com/erekola/turva-worker) | Runs my website, serving HTML and Markdown from shared content sources. It also publishes the site's discovery metadata. | [Live site](https://turva.dev) |
-| [turva-mcp](https://github.com/erekola/turva-mcp) | Gives MCP clients read-only access to turva.dev's published information and evidence. | [Connect your client](https://github.com/erekola/turva-mcp#connect) |
+| [markdown-parity-check](https://github.com/turva-dev/markdown-parity-check) | Compares the main content of HTML and Markdown pages, with source locations for differences and JSON output for CI. | [npm package](https://www.npmjs.com/package/markdown-parity-check) · [Hosted check, turva.dev pages only](https://turva.dev/markdown-parity-check) |
+| [llms-txt-validator](https://github.com/turva-dev/llms-txt-validator) | Checks llms.txt structure from the command line or Node, with JSON output for CI. | [npm package](https://www.npmjs.com/package/turva-llms-txt-validator) · [Hosted validator](https://turva.dev/llms-txt-validator) |
+| [turva-worker](https://github.com/turva-dev/turva-worker) | Runs my website, serving HTML and Markdown from shared content sources. It also publishes the site's discovery metadata. | [Live site](https://turva.dev) |
+| [turva-mcp](https://github.com/turva-dev/turva-mcp) | Gives MCP clients read-only access to turva.dev's published information and evidence. | [Connect your client](https://github.com/turva-dev/turva-mcp#connect) |
 
 The two command-line tools are available on npm. With Node.js 22 or newer installed, replace the example addresses with your own domain and page:
 
@@ -28,7 +28,7 @@ The first command checks llms.txt structure. The second compares a page's HTML a
 
 ## My website is part of the work
 
-I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/erekola/turva-worker) are public, along with [dated measurements and their limits](https://github.com/erekola/turva-worker#scanner-results). Anyone can repeat the public checks.
+I use turva.dev as a reference implementation. Its [source code and verification instructions](https://github.com/turva-dev/turva-worker) are public, along with [dated measurements and their limits](https://github.com/turva-dev/turva-worker#scanner-results). Anyone can repeat the public checks.
 
 On 2026-11-25, turva.dev scored 100/100 and reached Level 5 on [isitagentready.com](https://isitagentready.com/). On 2026-11-15, it scored 98/100 on the [Internet.nl website test](https://internet.nl/site/turva.dev/) and 90/100 on its [email test](https://internet.nl/mail/turva.dev/). Hardenize passed all 24 categories on its [public report](https://www.hardenize.com/report/turva.dev) on that day.
 
